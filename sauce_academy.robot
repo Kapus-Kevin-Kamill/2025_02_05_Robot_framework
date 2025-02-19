@@ -28,3 +28,8 @@ empty_both
     Input Text    //*[@id="password"]    ${EMPTY}
     Click Button    //*[@id="login-button"]
     Element Should Contain    //*[@id="login_button_container"]/div/form/div[3]/h3    Epic sadface: Username is required
+
+Optikart Login
+    Open Browser    https://optikart.hu/    firefox
+        //*[@id="post-95"]/div/div/div/div/div[4]/div/div/a/span/span
+    Click Button
